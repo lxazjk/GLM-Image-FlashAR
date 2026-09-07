@@ -1,0 +1,22 @@
+# Install a CUDA-compatible PyTorch build before this file. The reference
+# environment used torch==2.9.1 and torchvision==0.24.1+cu130.
+
+# GLM-Image support was validated against these exact upstream commits.
+transformers @ git+https://github.com/huggingface/transformers.git@7ea2320c76117e6742364808a666ef6f2fb40a67
+diffusers @ git+https://github.com/huggingface/diffusers.git@9f6fc2c13610ead670cbac6dbf974b2a24a9e69b
+
+accelerate==1.12.0
+einops==0.6.0
+huggingface-hub==1.24.0
+numpy==1.26.4
+packaging==24.2
+Pillow==11.3.0
+protobuf==3.20.3
+psutil==6.0.0
+PyYAML==6.0
+requests==2.34.2
+safetensors==0.8.0
+sentencepiece==0.1.99
+tokenizers==0.22.2
+tqdm==4.67.3
+webdataset==0.2.48

@@ -1,0 +1,22 @@
+# Training outputs and model checkpoints
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Logs and local runtime files
+*.log
+*.pid
+.DS_Store
+.idea/
+.vscode/
